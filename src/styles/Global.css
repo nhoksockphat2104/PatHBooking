@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  margin-top: 6px;
+}
+
+/* Sign Up - Sign In form */
+/* Sign Up */
+.row-signup {
+  margin-bottom: 130px;
+}
+.form-signup{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 150px;
+  margin-left: 500px;
+}
+.wrap-form{
+  padding: 24px;
+}
+.form-control {
+  margin-top: 14px;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+}
+.btn-signup{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 6px;
+  background-color:#616262;
+  color: #fff;
+}
+.btn-signup:hover {
+  background-color:#2f2f2f;
+}
+/* Sign In */
+.row-signin {
+  margin-bottom: 233px;
+}
+.btn-signin{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 6px;
+  background-color:#616262;
+  color: #fff;
+}
+.btn-signin:hover {
+  background-color:#2f2f2f;
+}
+/* Navbar */
+.navbar {
+  background: linear-gradient(to left, #555555 0%, #2f2f2f 100%);
+  position: fixed;
+  top: 0;
+}
+.navbar-brand {
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: white !important;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: wheat;
+  transform: rotate(1deg);
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+/* Home page */
+.row-homepage{
+  margin-bottom: 50px;
+}
+
+/* Hotel Rooms */
+/* Calendar */
+.row-select-room {
+  margin-top: 110px;
+  margin-left:86px;
+  margin-right: 86px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 15px;
+}
+.form-date{
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 17px;
+}
+
+/*  Room card */
+.room-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 27px;
+}
+.image-room {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #616262;
+  border-radius: 6px;
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.btn:hover {
+  background-color: black;
+}
+/* Model - Caroulse */
+.model-img {
+  height: 370px;
+  border-radius: 10px;
+}
+
+/* Booking Page */
+.booking-card{
+  padding: 40px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.room-card {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* User */
+/* Button Cancel */
+.btn-cancel {
+  padding-top: 7px;
+  padding-right: 25px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  background-color: rgb(253, 25, 25);
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btn-cancel:hover{
+  background-color: rgb(253, 50, 50);
+}
+
+/* Admin */
+.admin-panel{
+  margin-top: 80px;
+}
+
+/* Landing page */
+.row-landing {
+  margin: 0;
+}
+.header-landing{
+  background: linear-gradient(to left, #555555 0%, #2f2f2f 100%);
+  color: #fff;
+  height: 697px;
+}
+.header-landing h1 {
+  padding-top: 150px;
+}
+
+/* Footer */
+.row-footer{
+  float:inherit;
+  background-color: #2f2f2f;
+  color: #fff;
+}
